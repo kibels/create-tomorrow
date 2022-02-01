@@ -1,0 +1,17 @@
+dist/
+
+bop_worldgen/
+mods/
+natives/
+saves/
+resourcepacks/
+screenshots/
+
+**/*.zip
+
+config.json
+knownkeys.txt
+options.txt
+realms_persistence.json
+usercache.json
+usernamecache.json
