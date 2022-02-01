@@ -11,7 +11,7 @@ screenshots/
 
 config.json
 knownkeys.txt
-options.txt
+./options.txt
 realms_persistence.json
 usercache.json
 usernamecache.json
