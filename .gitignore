@@ -15,6 +15,7 @@ logs/
 
 /config.json
 /config.bak.json
+/config_new_temp.json
 /knownkeys.txt
 /options.txt
 /realms_persistence.json
@@ -23,10 +24,10 @@ logs/
 simple-rpc/server-entries.toml
 TrashSlotSaveState.json
 
-config/*
+config/
 !config/.gitignore
 
-local/*
+local/
 !local/ftbchunks/client-config.snbt
 
 kubejs/exported/
