@@ -1,4 +1,5 @@
 dist/
+build/
 
 bop_worldgen/
 mods/
@@ -24,7 +25,8 @@ logs/
 simple-rpc/server-entries.toml
 TrashSlotSaveState.json
 
-config/
+config/*
+!config/
 !config/.gitignore
 
 local/

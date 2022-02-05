@@ -1,0 +1,19 @@
+{
+  "name": "create-tomorrow",
+  "version": "0.0.4",
+  "description": "A lightweight Minecraft modpack built around Create",
+  "main": ".scripts/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kibels@github.com/kibels/create-tomorrow.git"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE.MD",
+  "bugs": {
+    "url": "https://github.com/kibels/create-tomorrow/issues"
+  },
+  "homepage": "https://github.com/kibels/create-tomorrow#readme"
+}
