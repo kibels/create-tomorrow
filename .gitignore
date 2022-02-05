@@ -6,12 +6,24 @@ natives/
 saves/
 resourcepacks/
 screenshots/
+logs/
 
 **/*.zip
+**/*.dat
+**/*.dat_old
+**/*.bak
 
-config.json
-knownkeys.txt
-./options.txt
-realms_persistence.json
-usercache.json
-usernamecache.json
+/config.json
+/knownkeys.txt
+/options.txt
+/realms_persistence.json
+/usercache.json
+/usernamecache.json
+simple-rpc/server-entries.toml
+TrashSlotSaveState.json
+
+config/*
+!config/.gitignore
+
+kubejs/*
+local/*
