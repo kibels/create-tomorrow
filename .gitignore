@@ -14,6 +14,7 @@ logs/
 **/*.bak
 
 /config.json
+/config.bak.json
 /knownkeys.txt
 /options.txt
 /realms_persistence.json
@@ -25,5 +26,7 @@ TrashSlotSaveState.json
 config/*
 !config/.gitignore
 
-kubejs/*
 local/*
+!local/ftbchunks/client-config.snbt
+
+kubejs/exported/
