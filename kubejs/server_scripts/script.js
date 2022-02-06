@@ -25,6 +25,10 @@ onEvent('recipes', event => {
     ], {
       L: '#minecraft:logs'
     });
+
+  event.blasting('minecraft:leather','minecraft:rotten_flesh');
+
+  event.shapeless('farmersdelight:cabbage_seeds','farmersdelight:cabbage');
 })
 
 onEvent('item.tags', event => {
