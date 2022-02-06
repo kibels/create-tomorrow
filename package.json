@@ -1,6 +1,6 @@
 {
   "name": "create-tomorrow",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A lightweight Minecraft modpack built around Create",
   "main": ".scripts/index.js",
   "scripts": {
