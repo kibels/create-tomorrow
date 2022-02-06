@@ -9,14 +9,22 @@ console.info('Hello, World! (You will see this line every time server resources 
 
 onEvent('recipes', event => {
 	// Change recipes here
-    event.shaped('easypaxellite:copper_paxel', [
-        'CCC',
-        'CS ',
-        ' S '
-      ], {
-        C: 'minecraft:copper_ingot',
-        S: '#forge:rods/wooden'
-    })
+  event.shaped('easypaxellite:copper_paxel', [
+    'CCC',
+    'CS ',
+    ' S '
+    ], {
+      C: 'minecraft:copper_ingot',
+      S: '#forge:rods/wooden'
+    });
+
+  event.shaped('8x minecraft:stick', [
+    'L  ',
+    'L  ',
+    '   '
+    ], {
+      L: '#minecraft:logs'
+    });
 })
 
 onEvent('item.tags', event => {
