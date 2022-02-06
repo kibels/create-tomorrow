@@ -9,8 +9,8 @@ console.info('Hello, World! (You will see this line every time server resources 
 
 onEvent('recipes', event => {
 	// Change recipes here
-  event.remove('angelring:itemring');
-  event.remove('angelring:itemdiamondring');
+  event.remove({output: 'angelring:itemring'});
+  event.remove({output: 'angelring:itemdiamondring'});
 
   event.shaped('easypaxellite:copper_paxel', [
     'CCC',
