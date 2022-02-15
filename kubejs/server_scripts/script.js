@@ -32,6 +32,7 @@ onEvent('recipes', event => {
   event.blasting('minecraft:leather','minecraft:rotten_flesh');
 
   event.shapeless('farmersdelight:cabbage_seeds','farmersdelight:cabbage');
+  event.shapeless('create:rose_quartz',['biomesoplenty:rose_quartz_shard','biomesoplenty:rose_quartz_shard','biomesoplenty:rose_quartz_shard']);
 })
 
 onEvent('item.tags', event => {
