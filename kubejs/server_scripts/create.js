@@ -13,5 +13,7 @@ onEvent('recipes', event => {
       E: 'minecraft:elytra',
       R: 'minecraft:blaze_rod',
       G: 'minecraft:gold_block'
-    })
+    });
+
+  event.recipes.createCrushing(['4x minecraft:magma_cream'], 'biomesoplenty:brimstone');
 });

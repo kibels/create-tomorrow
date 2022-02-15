@@ -8,6 +8,8 @@ saves/
 resourcepacks/
 screenshots/
 logs/
+crash-reports/
+emojiful/
 
 **/*.zip
 **/*.dat
@@ -28,6 +30,10 @@ TrashSlotSaveState.json
 config/*
 !config/
 !config/.gitignore
+
+defaultconfigs/*
+!defaultconfigs/
+!defaultconfigs/.gitignore
 
 local/
 !local/ftbchunks/client-config.snbt
